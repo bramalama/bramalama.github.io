@@ -17,6 +17,6 @@ p1{
     max-width: 600px; /* limit max size on desktop */
     height: auto;    /* maintain aspect ratio */
     display: block;  
-    margin-left: 5%;   /* small offset left */
+    margin-left: 45%;   /* small offset left */
     margin-right: auto;
 }

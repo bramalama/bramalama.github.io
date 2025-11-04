@@ -23,5 +23,5 @@ p1{
     height: auto;    /* maintain aspect ratio */
     display: block;  
     margin: 0 auto;
-    transform: translateX(-4.75%);
+    transform: translateX(-4.5%);
 }

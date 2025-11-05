@@ -19,7 +19,7 @@ p1{
 
 .responsive-img {
     width: 100%;     /* image fills its container */
-    max-width: 600px; /* limit max size on desktop */
+    max-width: 400px; /* limit max size on desktop */
     height: auto;    /* maintain aspect ratio */
     display: block;  
     margin: 0 auto;

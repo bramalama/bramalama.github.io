@@ -1,29 +1,33 @@
-body{
+body {
     background-color: #fbefff;
-    padding: 25px;
+    padding: 5vw;       /* padding scales with viewport width */
     text-align: center;
+    font-family: monospace;
+    max-width: 800px;   /* optional: limits width on desktop */
+    margin: 0 auto;     /* center body */
 }
+
 h1 {
     color: #5C6AC4;
-    font-family: monospace;
+    font-size: 6vw;     /* scales with screen width */
 }
+
 t1 {
     color: #8c94c9;
-    font-family: monospace;
-    font-size: 14px;
+    font-size: 3vw;     /* scales with screen */
 }
-p1{
-    font-family: monospace;
-    font-size: 10px;
+
+p1 {
+    font-size: 2vw;
 }
-p{
-    font-family: monospace;
+
+p {
+    font-size: 3vw;
 }
+
 .responsive-img {
-    width: 100%;     /* image fills its container */
-    max-width: 450px; /* limit max size on desktop */
-    height: auto;    /* maintain aspect ratio */
-    display: block;  
+    width: 100%;
+    height: auto;
+    display: block;
     margin: 0 auto;
-    transform: translateX(-4.5%);
 }

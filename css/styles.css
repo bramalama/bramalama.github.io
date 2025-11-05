@@ -16,7 +16,9 @@ p1{
     font-family: monospace;
     font-size: 10px;
 }
-
+p{
+    font-family: monospace;
+}
 .responsive-img {
     width: 100%;     /* image fills its container */
     max-width: 450px; /* limit max size on desktop */
